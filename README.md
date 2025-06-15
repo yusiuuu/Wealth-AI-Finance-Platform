@@ -35,7 +35,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/welth.git
+git clone https://github.com/yusiuuu/welth.git
 cd welth
 ```
 
