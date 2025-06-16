@@ -45,3 +45,14 @@ npm install
 ```bash
 npm run dev
 ```
+# Folder Structure
+app/
+  ├── layout.js(x)        // App layout
+  ├── page.jsx            // Landing page
+  └── globals.css         // Global styles
+components/
+  └── hero.jsx            // Hero section for landing
+data/
+  └── landing.js          // Landing page content
+public/
+  └── banner.png          // Hero image
