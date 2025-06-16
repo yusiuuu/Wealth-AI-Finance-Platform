@@ -29,13 +29,19 @@ An intelligent, secure, and extensible finance platform built using **Next.js**,
 
 ## 🧪 Getting Started
 
-```bash
+
 # Clone the repo
+```bash
 git clone https://github.com/yusiuuu/Wealth-AI-Finance-Platform.git
 cd Wealth-AI-Finance-Platform
+```
 
 # Install dependencies
+```bash
 npm install
+```
 
 # Run development server
+```bash
 npm run dev
+```
