@@ -46,13 +46,4 @@ npm install
 npm run dev
 ```
 # Folder Structure
-app/
-  ├── layout.js(x)        // App layout
-  ├── page.jsx            // Landing page
-  └── globals.css         // Global styles
-components/
-  └── hero.jsx            // Hero section for landing
-data/
-  └── landing.js          // Landing page content
-public/
-  └── banner.png          // Hero image
+<pre> <code> 📦 app ┣ 📜 layout.jsx ┣ 📜 page.jsx ┗ 📜 globals.css 📦 components ┗ 📜 hero.jsx 📦 data ┗ 📜 landing.js 📦 public ┗ 🖼️ banner.png 📜 package.json 📜 next.config.mjs 📜 README.md </code> </pre>
