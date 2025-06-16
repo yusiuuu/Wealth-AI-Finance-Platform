@@ -1,60 +1,41 @@
-# 💸 Welth – AI-Powered Finance Platform
+# 💰 Wealth — AI Finance Platform
 
-**Welth** is a modern AI-driven finance platform built with **Next.js 15**, **ShadCN UI**, and **Clerk for authentication**. It empowers users to manage and understand their finances with the help of intelligent tools and a clean, responsive interface.
-
----
-
-## 🧰 Tech Stack
-
-- ⚙️ **Framework**: [Next.js 15](https://nextjs.org/)
-- 🎨 **UI Library**: [ShadCN UI](https://ui.shadcn.com/)
-- 🔐 **Authentication**: [Clerk](https://clerk.com/)
-- 💅 **Styling**: Tailwind CSS
-- 💡 **AI Integration**: Coming soon…
+An intelligent, secure, and extensible finance platform built using **Next.js**, **ShadCN UI**, **Clerk**, **Supabase**, **Arcjet**, and **Inngest**. Designed to be developer-friendly and scalable for modern financial applications.
 
 ---
 
-## 🚀 Features Implemented
+## 🛠️ Features
 
-- ✅ App Layout Setup  
-- ✅ ShadCN UI Integration  
-- ✅ Clerk Authentication with Protected Routes  
-- ✅ Header Component with Dynamic Navigation  
-- 🚧 Dashboard, Budget Tracking & AI Insights – *in progress*
-
----
-
-## 📸 Screenshots
-
-> *Coming soon – once more UI is in place*
+- 🔐 **User Authentication** – Powered by Clerk
+- 🧑‍💻 **Modern UI** – Built using ShadCN UI + TailwindCSS
+- 🌐 **Landing Page** – Responsive and engaging hero section
+- 🧠 **AI Finance Utilities** – Upcoming features
+- 📦 **Supabase Integration** – For database and auth workflows
+- 🔐 **Arcjet Security** – Runtime security protection for Next.js
+- ⚙️ **Inngest Integration** – Event-driven backend automation
 
 ---
 
-## 🛠️ Getting Started
+## ⚙️ Tech Stack
 
-### 1. Clone the Repository
+- **Frontend:** Next.js (App Router), ShadCN UI, TailwindCSS
+- **Auth:** Clerk
+- **Database & Backend:** Supabase
+- **Security:** Arcjet
+- **Automation:** Inngest
+- **Hosting:** Vercel (recommended)
+
+---
+
+## 🧪 Getting Started
 
 ```bash
-git clone https://github.com/yusiuuu/welth.git
-cd welth
-```
+# Clone the repo
+git clone https://github.com/yusiuuu/Wealth-AI-Finance-Platform.git
+cd Wealth-AI-Finance-Platform
 
-### 2. Install Dependencies
-
-```bash
+# Install dependencies
 npm install
-```
 
-### 3. Setup Environment variables
-```bash
-touch .env
-```
-
-### 4. Add your Clerk or any other API keys
-```bash
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key_here
-CLERK_SECRET_KEY=your_key_here
-```
-### 4. Run the development server
-```bash
+# Run development server
 npm run dev
