@@ -23,6 +23,7 @@ An intelligent, secure, and extensible finance platform built using **Next.js**,
 - **Database & Backend:** Supabase
 - **Security:** Arcjet
 - **Automation:** Inngest
+- **AI:** Gemini AI
 - **Hosting:** Vercel (recommended)
 
 ---
