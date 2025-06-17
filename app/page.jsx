@@ -23,7 +23,7 @@ export default function Home() {
       </div>
     </section>
 
-// Features Section
+{/*Features Section*/}
     <section className="py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">
@@ -42,8 +42,7 @@ export default function Home() {
         </div>
       </div>
     </section>
-
-// How It Works Section 
+{/*How It Works Section*/} 
     <section className="py-20 bg-blue-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-16">
@@ -61,7 +60,7 @@ export default function Home() {
       </div>
     </section>
 
-// Testimonials Section
+{/*Testimonials Section*/}
     <section className="py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">
@@ -86,7 +85,7 @@ export default function Home() {
       </div>
     </section>
 
-Call to Action Section
+{/* Call to Action Section */}
     <section className="py-20 bg-blue-600">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold mb-4 text-center text-white">Get Started Today</h2>

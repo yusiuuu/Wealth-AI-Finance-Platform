@@ -123,10 +123,10 @@
 
 @layer utilities{
   .gradient{
-    background-image: linear-gradient(to bottom right, blue, rgb(220, 30, 220));
+    background-image: linear-gradient(to bottom right, blue, rgb(176, 30, 220));
   }
   .gradient-title{
-    background-image: linear-gradient(to bottom right, blue, rgb(221, 21, 221));
+    background-image: linear-gradient(to bottom right, blue, rgb(176, 30, 220));
     font-weight: 800;
     letter-spacing: -0.05em;
     padding-right: 0.5rem;
