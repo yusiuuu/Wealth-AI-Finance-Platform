@@ -47,3 +47,28 @@ model User {
   @@map("users")
 }
 ```
+# Get Started
+## 1. Clone the repo
+```bash
+git clone https://github.com/yusiuuu/Wealth-AI-Finance-Platform.git
+cd Wealth-AI-Finance-Platform
+```
+## 2. Install dependencies
+```bash
+npm install
+```
+## 3. Setup environment
+### create .env file:
+```env
+DATABASE_URL=your_supabase_postgresql_url
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=...
+CLERK_SECRET_KEY=...
+```
+## 4. Push prisma schema to Supabase
+```bash
+npx prisma db push
+```
+## 5. Run the development server
+```bash
+npm run dev
+```
