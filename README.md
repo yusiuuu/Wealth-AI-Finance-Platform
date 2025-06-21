@@ -8,11 +8,13 @@ A smart personal finance management web app built using **Next.js**, **Clerk**, 
 
 - 🔐 User Authentication (Clerk)
 - 🧾 Manage Transactions
-- 🏦 Manage Accounts
+- 🏦 Manage Accounts (View, Create, Set Default)
 - 🎯 Set Budgets
-- 📊 Dashboard for overview
+- 📊 Dashboard with real-time financial overview
+- 🧠 Dynamic Account Page with transaction history
+- 🌱 Seeded dummy transactions for development
 - ☁️ Supabase PostgreSQL as the database
-- 🧠 Backend built using Prisma ORM
+- ✨ Backend powered by Prisma ORM
 
 ---
 
@@ -26,6 +28,7 @@ A smart personal finance management web app built using **Next.js**, **Clerk**, 
 | Supabase     | PostgreSQL database + API hosting        |
 | Tailwind CSS | Utility-first styling                    |
 | Lucide Icons | Beautiful open-source icons              |
+| Shadcn UI    | Modern UI components with Radix + Tailwind |
 
 ---
 
@@ -46,6 +49,7 @@ model User {
 
   @@map("users")
 }
+
 ```
 # Get Started
 ## 1. Clone the repo
