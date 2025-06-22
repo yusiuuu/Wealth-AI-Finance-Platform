@@ -1,6 +1,6 @@
 # 💸 Wealth AI Finance Platform
 
-A smart personal finance management web app built using **Next.js**, **Clerk**, **Supabase**, and **Prisma**. It allows users to track transactions, manage accounts, set budgets, and visualize financial goals – with a focus on simplicity, security, and performance.
+
 
 ---
 
