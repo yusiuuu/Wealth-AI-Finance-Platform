@@ -2,8 +2,12 @@
 
 import { Checkbox } from '@/components/ui/checkbox'
 import { Table, TableBody, TableCaption, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table'
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
+import { categoryColors } from '@/data/categories';
 import { format } from 'date-fns';
+import { Badge } from "@/components/ui/badge";
 import React from 'react'
+import { Clock } from 'lucide-react';
 
 const TransactionTable = ({transactions}) => {
     const filterAndSortedTransactions = transactions;
@@ -51,8 +55,32 @@ const TransactionTable = ({transactions}) => {
                         {format(new Date(transaction.date), "PP")}
                     </TableCell>
                     <TableCell>{transaction.description}</TableCell>
-                    <TableCell>{transaction.category}</TableCell>
-                    <TableCell>$250.00</TableCell>
+                    <TableCell className={"capitalize"}>
+                        <span
+                        style={{
+                            background: categoryColors[transaction.category],
+                        }}
+                        className='inline-flex items-center gap-2 px-2 py-1 rounded-md text-xs font-medium text-white'>
+                            {transaction.category}
+                        </span></TableCell>
+                    <TableCell className={"text-center font-medium"}
+                    style={{
+                        color: transaction.type === "EXPENSE" ? "red" : "green"}}>
+                        {transaction.type === "EXPENSE" ? "-" : "+"}
+                        ${transaction.amount.toFixed(2)}
+                    </TableCell>
+                    <TableCell>{transaction.isRecurring?(
+                        <TooltipProvider>
+                        <Tooltip>
+                            <TooltipTrigger>Hover</TooltipTrigger>
+                            <TooltipContent>
+                                <p>Add to library</p>
+                            </TooltipContent>
+                            </Tooltip>
+                    </TooltipProvider>
+                    ):<Badge variant="outline" className={"gap-1"}>
+                        <Clock className="h-3 w-3"/>One-time</Badge>}
+                    </TableCell>
                 </TableRow>    
                     ))
                 )}
