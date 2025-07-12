@@ -32,6 +32,11 @@ A smart personal finance management web app built using **Next.js**, **Clerk**, 
 
 ---
 
+### 🔄 Updates
+- Integrated recurring column in the transaction table
+- Populated transaction and recurring data from Supabase
+- Used shadcnUI `Badge` and `Clock` components for better UI indicators
+
 ## 🗃️ Database Models (Prisma)
 
 ```prisma
