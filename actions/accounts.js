@@ -119,7 +119,7 @@ export async function bulkDeleteTransactions(transactionIds){
                 },
             });
 
-            for (const [accountId, balanceChange] of Object.entries(accountBalanceChnages)) {
+            for (const [accountId, balanceChange] of Object.entries(accountBalanceChanges)) {
                 await tx.account.update({
                     where: { id: accountId, userId: user.id },
                     data: { balance: { increment: balanceChange } },
