@@ -37,6 +37,19 @@ A smart personal finance management web app built using **Next.js**, **Clerk**, 
 - Populated transaction and recurring data from Supabase
 - Used shadcnUI `Badge` and `Clock` components for better UI indicators
 
+## ⚡ New Features
+
+### 📊 Budget Alert Automation
+- Implemented **cron jobs** using Inngest to monitor budget usage in real-time.
+- Automatically checks if a user’s spending approaches or exceeds their set budget limits.
+- Sends **automated email notifications** to alert users when they reach a critical spending threshold, helping them take timely action.
+
+### ✉️ Email Notifications
+- Integrated email notification system to send actionable budget alerts.
+- Ensures users stay informed about their budget status without needing to constantly check the dashboard.
+- Powered by a serverless function that triggers when the budget limit condition is met.
+
+
 ## 🗃️ Database Models (Prisma)
 
 ```prisma
